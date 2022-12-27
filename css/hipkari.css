@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: #f9f2b9;
+  font-family: "Jolly Lodger";
+}
+
+.hipkari-header__logo {
+  margin: 32px 64px;
+  font-size: 50px;
+  color: #464b3a;
+}
+.hipkari-header__items {
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.hipkari-header__items a {
+  color: #688232;
+}
+.hipkari-header__items a:hover {
+  color: #f6be51;
+}
+.hipkari-header__items a:active {
+  color: #ff6600;
+}
+.hipkari-header__items li:nth-child(1) {
+  margin: 32px 0 50px 0;
+}
+.hipkari-header__items li:nth-child(2) {
+  margin: 50px 0 32px 40px;
+}
+.hipkari-header__items li:nth-child(3) {
+  margin: 32px 160px 50px 40px;
+}
+
+.hipkari-container {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hipkari-main {
+  margin: 0 160px 0 82px;
+}
+.hipkari-main__text {
+  color: #688232;
+  font-size: 200px;
+  line-height: 243px;
+  margin: 0 0 200px 0;
+}
+
+.hipkari-button {
+  background-color: #f6be51;
+  font-size: 35px;
+  color: #688232;
+  padding: 10px 40px;
+  margin: 0px 0 0 67px;
+  -webkit-box-shadow: 1px 5px 0 gray;
+          box-shadow: 1px 5px 0 gray;
+}
+
+.hipkari-button:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.hipkari-button:active {
+  position: relative;
+  top: 3px;
+  background-color: rgb(226, 226, 226);
+  -webkit-box-shadow: 1px 3px 0 rgb(59, 59, 59);
+          box-shadow: 1px 3px 0 rgb(59, 59, 59);
+}
